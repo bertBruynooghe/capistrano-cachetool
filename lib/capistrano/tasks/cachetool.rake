@@ -36,7 +36,7 @@ end
 namespace :load do
   task :defaults do
     set :cachetool_roles, :all
-    set :cachetool_download_url, 'https://gordalina.github.io/cachetool/downloads/cachetool.phar'
+    set :cachetool_download_url, 'https://gordalina.github.io/cachetool/downloads/cachetool-7.1.0.phar'
     set :cachetool_working_dir, -> { fetch(:release_path) }
   end
 end
